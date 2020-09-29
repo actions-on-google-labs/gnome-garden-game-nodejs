@@ -1,0 +1,102 @@
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+
+$color-white: #ffffff;
+$color-grey: #E1E1E1;
+$color-black: #333333;
+$color-dark: #3C4043;
+$color-lightgrey: #C4C5C6;
+$color-yellow: #FBBC05;
+$color-blue: #4285F4;
+$color-green: #80B54B;
+$color-darkgreen: #629c27;
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+$l-max-width: 80em;
+
+$footer-desktop-height:45px;
+
+/**
+ * Spacing Defaults
+ */
+$space : 1em;
+$space-and-half : $space*1.5;
+$space-double : $space*2;
+$space-quad : $space*4;
+$space-half : $space/2;
+$pad : 1em;
+$pad-and-half : $pad*1.5;
+$pad-double : $pad*2;
+$pad-half : $pad/2;
+$pad-quarter :$pad/4;
+
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+
+/**
+ * Border Width
+ */
+$border-med: 3px;
+$border-thick: 7px;
+
+/**
+ * Border Radius
+ */
+$border-radius: 12px;
+$border-separator: 1px solid $color-grey;
+
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+
+$transition-duration: 0.35s;
+$transition-duration-fast: 0.15s;
+$transition-delay: 0.2s;
+$transition-ease: ease-in-out;
+
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
+
+/*
+@example scss - Usage
+    @include respond-to('desktop-large'){
+        css here...
+    }
+*/
+$breakpoints: (
+    'mobile-extra-small': (min-width:  21.563em),    // 340
+    'mobile-portrait-only': (max-width:  29.9375em), // 479
+    'mobile-landscape': (min-width:  30em),          // 480
+    'tablet-portrait-only': (max-width: 47.938em),   // 767
+    'tablet-portrait': (min-width: 48em),            // 768
+    'tablet-big': (min-width: 60.625em),             // 970
+    'desktop-only': (max-width: 63.938em),           // 1023
+    'desktop': (min-width: 64em),                    // 1024
+    'desktop-medium': (min-width: 80em),             // 1280
+    'desktop-large': (min-width: 90.063em),          // 1441
+    'desktop-extra-large': (min-width: 120em)        // 1920
+);
+
+/*------------------------------------*\
+    #Z INDEX
+\*------------------------------------*/
+
+/*
+@example scss - Usage
+    .foo {
+        z-index: z('header');
+    }
+*/
+$z-layers: (
+    'debug-modal': 99,
+    'preloader': 21,
+    'splash': 20,
+    'settings-btn': 9,
+    'menu-overlay': 10,
+    'close-cta': 10
+);

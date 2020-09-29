@@ -1,0 +1,249 @@
+/*------------------------------------*\
+    #MIXINS
+\*------------------------------------*/
+
+//Fonts
+@mixin importFont($fontname, $filename, $svgLabel, $isBold: false, $isItalic: false) {
+
+    @font-face {
+        font-family: $fontname;
+
+        // IE9 Compat Modes
+        src: url('~/fonts/#{$filename}.eot');
+        // IE6-IE8
+        src: url('~/fonts/#{$filename}.eot?#iefix') format('embedded-opentype'),
+            // Modern Browsers
+        url('~/fonts/#{$filename}.woff') format('woff'),
+            // Safari, Android, iOS
+        url('~/fonts/#{$filename}.ttf') format('truetype');
+            // Legacy iOS
+        // url('~/fonts/#{$filename}.svg##{$svgLabel}') format('svg');
+
+        @if $isBold {
+            font-weight: bold;
+        } @else {
+            font-weight: normal;
+        }
+
+        @if $isItalic {
+            font-style: italic;
+        } @else {
+            font-style: normal;
+        }
+    }
+
+}
+
+/** CSS Transition
+ *	Usage: @include transition(width,0.3s,ease-out);
+ */
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+// Text Styles
+@mixin font-size($size, $lineheight){
+    font-size: $size;
+    line-height: $lineheight;
+}
+
+/** Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
+ *	Usage: @include font-size(1, large);
+ */
+// @mixin font-size( $decimal-size, $keyword: null ) {
+//     @if $keyword{ font-size: $keyword; }
+//     @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
+//     font-size: $decimal-size * 1rem;
+// }
+
+// Ascending
+// Used to evaluate Sass maps like our grid breakpoints.
+@mixin _assert-ascending($map, $map-name) {
+    $prev-key: null;
+    $prev-num: null;
+    @each $key, $num in $map {
+        @if $prev-num == null {
+            // Do nothing
+        } @else if not comparable($prev-num, $num) {
+            @warn "Potentially invalid value for #{$map-name}: This map must be in ascending order, but key '#{$key}' has value #{$num} whose unit makes it incomparable to #{$prev-num}, the value of the previous key '#{$prev-key}' !";
+        } @else if $prev-num >= $num {
+            @warn "Invalid value for #{$map-name}: This map must be in ascending order, but key '#{$key}' has value #{$num} which isn't greater than #{$prev-num}, the value of the previous key '#{$prev-key}' !";
+        }
+        $prev-key: $key;
+        $prev-num: $num;
+    }
+}
+
+// Starts at zero
+// Another grid mixin that ensures the min-width of the lowest breakpoint starts at 0.
+@mixin _assert-starts-at-zero($map) {
+    $values: map-values($map);
+    $first-value: nth($values, 1);
+    @if $first-value != 0 {
+        @warn "First breakpoint in `$breakpoints` must start at 0, but starts at #{$first-value}.";
+    }
+}
+
+// Breakpoint
+// Used to add breakpoints with mobile first
+@mixin respond-to($name) {
+    @if map-has-key($breakpoints, $name) {
+      @media #{inspect(map-get($breakpoints, $name))} {
+        @content;
+      }
+    }
+    @else {
+      @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.";
+    }
+}
+
+@mixin respond-to-landscape-mobile () {
+    @media only screen 
+        and (max-width : 767px) 
+        and (max-height : 460px) 
+        and (orientation : landscape) {
+            @content;
+    }
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+    @media only screen 
+        and (min-device-width: 375px) 
+        and (max-device-width: 667px) 
+        and (-webkit-min-device-pixel-ratio: 2)
+        and (orientation: landscape) { 
+            @content;
+    }
+    /* ----------- iPhone 6+, 7+ and 8+ iPhone X ----------- */
+    @media only screen 
+        and (min-device-width: 375px) 
+        and (max-device-width: 812px) 
+        and (-webkit-min-device-pixel-ratio: 3)
+        and (orientation: landscape) { 
+            @content;
+    }
+    /* ----------- Google Pixel XL ----------- */
+    @media screen 
+        and (device-width: 360px) 
+        and (device-height: 640px) 
+        and (-webkit-device-pixel-ratio: 4) 
+        and (orientation: landscape) {
+            @content;
+    }
+    /* ----------- samsung 8+  ----------- */
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 846px)
+    and (max-device-height: 450px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+        @content;
+    }
+}
+
+// generic transform
+@mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+}
+
+// rotate
+@mixin rotateX ($deg) {
+    @include transform(rotateX(#{$deg}deg));
+}
+
+// rotate
+@mixin rotate ($deg) {
+    @include transform(rotate(#{$deg}deg));
+}
+// scale
+@mixin scale($scale) {
+    @include transform(scale($scale));
+}
+// scale
+@mixin scaleAxis($scaleX, $scaleY) {
+    @include transform(scaleX($scaleX) scaleY($scaleY));
+}
+// translate
+@mixin translate ($x, $y) {
+    @include transform(translate($x, $y));
+}
+// translate
+@mixin translate3D ($x, $y, $z) {
+    @include transform(translate3d($x, $y, $z));
+}
+// skew
+@mixin skew ($x, $y) {
+    @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+// center X & Y
+@mixin centerXY () {
+    top: 50%;
+    left: 50%;
+    @include translate3D(-50%,-50%,0);
+}
+
+// center X
+@mixin centerX () {
+    left: 50%;
+    @include translate3D(-50%,0,0);
+}
+
+// center Y
+@mixin centerY () {
+    top: 50%;
+    @include translate3D(0,-50%,0);
+}
+
+// Mixin for image replacement text hide
+@mixin hideText(){
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@mixin fullScreen() {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+// Text not selectable
+@mixin text-not-selectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+// Image Aspect Ratio
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: ($height / $width) * 100%;
+    }
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      img, video {
+          width: 100%;
+          height: auto;  
+      }
+    }
+  }

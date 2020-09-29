@@ -1,0 +1,50 @@
+{
+  "urls": [
+    "assets/sound/sfx/sprite.ogg",
+    "assets/sound/sfx/sprite.m4a",
+    "assets/sound/sfx/sprite.mp3",
+    "assets/sound/sfx/sprite.ac3"
+  ],
+  "sprite": {
+    "gnome_enter": [
+      0,
+      1875.0113378684807
+    ],
+    "gnome_exit+enter": [
+      3000,
+      2125.0113378684805
+    ],
+    "gnome_exit": [
+      7000,
+      1125.0113378684805
+    ],
+    "gnome_eyes": [
+      10000,
+      1000
+    ],
+    "grid_appear": [
+      12000,
+      2407.9365079365084
+    ],
+    "grid_disappear": [
+      16000,
+      932.8344671201805
+    ],
+    "menu": [
+      18000,
+      1000
+    ],
+    "nature_loop": [
+      20000,
+      60000
+    ],
+    "object_growing": [
+      81000,
+      904.1723356009044
+    ],
+    "object_removing": [
+      83000,
+      1565.124716553285
+    ]
+  }
+}

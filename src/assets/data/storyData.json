@@ -1,0 +1,111 @@
+{
+  "template": "garden02-grid",
+  "data": [
+    {
+      "id": 19,
+      "assetId": "statue",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 15,
+      "assetId": "gazing_ball",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 18,
+      "assetId": "bench",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 17,
+      "assetId": "moss_1",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 16,
+      "assetId": "tree_dogwood",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 0,
+      "assetId": "daffodil",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 1,
+      "assetId": "saguaro_cactus",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 2,
+      "assetId": "daffodil",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 3,
+      "assetId": "tulip",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 4,
+      "assetId": "daisies",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 5,
+      "assetId": "bleeding_heart",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 6,
+      "assetId": "snowdrop",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 7,
+      "assetId": "sunflower",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 8,
+      "assetId": "lillac",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 9,
+      "assetId": "ice_plant",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 10,
+      "assetId": "angels_trumpets",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 11,
+      "assetId": "crocuses",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 12,
+      "assetId": "orchid",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 13,
+      "assetId": "rose",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 14,
+      "assetId": "hibiscus",
+      "timestamp": 1588774746364
+    },
+    {
+      "id": 20,
+      "assetId": "marigold",
+      "timestamp": 1588774746364
+    }
+  ],
+  "gnomePos": 6
+}

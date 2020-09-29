@@ -1,0 +1,45 @@
+/*------------------------------------*\
+    # BUTTONS
+\*------------------------------------*/
+
+button,
+.button {
+	border: none;
+	// outline: none;
+	background: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.block--button {
+	position: relative;
+	text-align: center;
+}
+
+.primary-button {
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	padding: 16px 30px 20px;
+	background-color: $color-white;
+	border: 2px solid $color-lightgrey;
+	color: $color-black;
+	box-sizing: border-box;
+	border-radius: 100px;
+	box-shadow: $color-darkgreen 0px 0px 10px;
+}
+
+.secondary-button {
+	text-align: center;
+	display: block;
+	margin: 20px;
+	padding: 10px 20px;
+	color: $color-black;
+	background-color: $color-white;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+}

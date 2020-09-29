@@ -1,0 +1,29 @@
+.component-fade-enter-active, .component-fade-leave-active {
+  // transition: opacity $transition-duration * 2 $transition-ease;
+  // will-change: opacity;
+  transition: opacity 1s $transition-ease 0.2s;
+}
+
+.component-fade-enter, .component-fade-leave-to {
+  opacity: 0;
+}
+
+.slide-fade-enter-active {
+  transition: all 1s $transition-ease 1s;
+}
+.slide-fade-leave-active {
+  transition: all .5s $transition-ease;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.fast-fade-enter-active, .fast-fade-leave-active {
+  // transition: opacity $transition-duration * 2 $transition-ease;
+  // will-change: opacity;
+  transition: opacity $transition-duration-fast $transition-ease;
+}
+.fast-fade-enter, .fast-fade-leave-to {
+  opacity: 0;
+}

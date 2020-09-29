@@ -1,0 +1,1927 @@
+{
+  "gnome_responses": {
+    "first_weed_nomatch_1": "Sorry. Want me to weed the garden?",
+    "first_weed_nomatch_2": "I missed that. Do you want me to remove the weeds?",
+    "first_weed_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "gardenfull_nomatch_1": "Sorry. What was that?",
+    "gardenfull_nomatch_2": "I missed that. You can remove a plant, start a new garden, or keep this one going. So, what will it be?",
+    "gardenfull_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "newgarden_nomatch_1": "Sorry. Do you want to start a new garden?",
+    "newgarden_nomatch_2": "Oops. I missed that. You can start a new garden, or keep working on this one. So, what will it be?",
+    "newgarden_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "remove_nomatch_1": "Sorry. What number was that?",
+    "remove_nomatch_2": "I missed that. I used my magic to number all the plants in your garden. Take a look, and let me know which number you want to get rid of.",
+    "remove_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "remove_end_nomatch_1": "Sorry. You can get back to planting, or remove more plants. What do you want to do?",
+    "remove_end_nomatch_2": "I missed that. You can get back to planting, or remove more plants. What would you like?",
+    "remove_end_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "default_nomatch_1": "Sorry. Do you want to keep going?",
+    "default_nomatch_2": "I missed that. Are you ready to move on?",
+    "default_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "question_nomatch_1": [
+      "I don't quite follow...",
+      "Sorry, I missed that...",
+      "I didn't quite catch that...",
+      "Let's try that again...",
+      "Oops! let me ask again..."
+    ],
+    "question_nomatch_2": [
+      "I still didn't get that...",
+      "I'm afraid I missed that too...",
+      "I still didn't catch that...",
+      "Oh no, I missed that too..."
+    ],
+    "question_nomatch_3": [
+      "Sorry friend, I didn't catch that. But come back and garden with me again soon!"
+    ],
+    "question_both": "I know it's hard to pick, but which one are you leaning toward?",
+    "question_skip": "Well alright. Let's move on to the next question then.",
+    "settings_nomatch_1": "Sorry. What was that?",
+    "settings_nomatch_2": "I missed that. You can keep working on this garden, or I can give you instructions. You can also start a new garden, or change the sound settings. What would you like to do?",
+    "settings_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "instructions_nomatch_1": "Sorry. What was that?",
+    "instructions_nomatch_2": "I missed that. Do you want to return to your garden?",
+    "instructions_nomatch_3": "Sorry friend, I didn't catch that. But come back and garden with me again soon!",
+    "game_exit": "Toodles for now! Come back and garden with me soon!",
+    "welcome_back": [
+      "I was having a great day. But it's even better now that you're back!",
+      "What a treat. It's good to see you back here. Let's do some gardening together!",
+      "Oh how I've missed you! Being a gnome can get a bit dull at times. But you always make things exciting!",
+      "Oh wonderful! My all-time favorite human is back.",
+      "Nice to see you back in the garden. The plants and I have been having fun, but it's better with you here."
+    ],
+    "question_prefixes": [
+      "And now...",
+      "Next up...",
+      "Now...",
+      "Okay...",
+      "Alright...",
+      "So...",
+      "So, I was wondering...",
+      "Okay, here’s another one...",
+      "Alright, here’s another one...",
+      "Okay, here’s a good one...",
+      "Alright, here’s a good one...",
+      "So here’s a question for you...",
+      "Okay, here’s a question...",
+      "Alright, here’s a question...",
+      "Answer me this...",
+      "And my next question for you...",
+      "And my next question..."
+    ],
+    "gnome_moving_sound": "<audio src=\"https://actions-on-gnome-garden.firebaseapp.com/assets/sound/gnome_exit+enter.mp3\"/><break time=\"0.75\"/>",
+    "default_response": "Good choice, I like your style!",
+    "growing_response_start": "<audio src=\"https://actions-on-gnome-garden.firebaseapp.com/assets/sound/object_growing.mp3\"/>",
+    "growing_response_end": "<break time=\"3\"/>",
+    "removing_sound": "<audio src=\"https://actions-on-gnome-garden.firebaseapp.com/assets/sound/object_removing.mp3\"/>",
+    "audio_config_response": "Garden audio is <audio-state>, <break time=\"1\"/>Say Done to continue playing"
+  },
+  "scenes": {
+    "onboarding_tts": "Ah-ha! There you are! It’s a pleasure to meet you!<break time=\"1\"/> M’name’s Gnorman. And I'll be helping you look after your garden, which, as you can see, needs a bit of work. <break time=\"1\"/> So, that's where you come in! <break time=\"1\"/> Every now ‘n then, I’ll ask you a question, and your answers will guide my magic to beautify this space. When it's all full, keep the zen garden by your side as you go about your day. Or you can start a new one whenever you fancy a change of scenery.",
+    "onboarding_suggestion": [
+      "Skip"
+    ],
+    "onboarding2_tts": "And it’s as easy as that!<break time=\"1\"/> If you ever want to skip a question, just let me know. You can also tell me if you want to start your garden over from scratch. <break time=\"1\"/> And with that, let's get gardenin'!",
+    "onboarding2_tos": "And it’s as easy as that! If you ever get hung up on a question, simply say “SKIP” and we’ll move on to the next one. And if you ever want to start fresh again, just say “NEW GARDEN.” Let’s Go!",
+    "onboarding2_suggestion": [
+      "Skip"
+    ],
+    "onboarding_weeding_tts": "Ooooh look! Some wildflowers have decided to pop in. <break time=\"1\"/> But have no fear, I happen to be a weeding wizard.<break time=\"1\"/>",
+    "onboarding_weeding_tos": "Ooooh look! Some wildflowers have decided to pop in. Have no fear, I happen to be a weeding wizard. Would you like me to take care of them?",
+    "onboarding_weeding_suggestion": [
+      "Weed the garden"
+    ],
+    "first_weeding_response_tts": "Alright, they're gone! Oh, by the way, not fond of weeds? Well, any time you see them pop up, just tell me to weed the garden.",
+    "first_weeding_response_tos": "All set! If you ever see them again and don’t want them here, just tell me to “WEED THE GARDEN” and I’ll take quick care of them.",
+    "skip_weeding_response_tts": "Ok, I'll let the weeds grow for now. But if you ever want to get rid of them, you can always tell me to weed the garden later.",
+    "skip_weeding_response_tos": "Ok, I'll let the weeds grow for now. If you'd like them gone in the future, just say \"WEED THE GARDEN\"",
+    "game_over_tts": "Would you look at that, your garden's all filled in! What a beautiful site. <break time=\"1\"/> Now, you can remove a plant, start a new garden, or keep this one. So, what would you like?",
+    "game_over_tos": "Would you look at that, your garden is all filled in! What a beautiful site. Would you like to remove an item, start a new garden, or keep the garden?",
+    "game_over_suggestion": [
+      "Remove",
+      "New Garden",
+      "Keep Garden"
+    ],
+    "confirm_new_garden_tts": "Fantastic idea! A fresh start sounds lovely. But just so you know, this will get rid of your current garden. So, are you sure you want to start a new one?",
+    "confirm_new_garden_tos": "Fantastic idea! A fresh start sounds lovely. Just so you know, this will get rid of your current garden. Are you sure you want to start a new one?",
+    "confirm_new_garden_suggestion": [
+      "Yes",
+      "No"
+    ],
+    "new_garden_tts": "Alright then. New garden, coming right up!",
+    "remove_intro_tts": "Excellent idea. Now, take a look at the plants in your garden. Which number do you want to get rid of?",
+    "remove_intro_tos": "Excellent idea, check out the screen and say the number of the plant you'd like to remove?",
+    "remove_response_tts": "Great choice. Let me get rid of those <plant_plural_name> for you.",
+    "remove_response_tos": "Great choice. Let me clear those <plant_plural_name> for you.",
+    "remove_end_suggestion": [
+      "Done",
+      "Remove"
+    ],
+    "keep_intro_tts": "Wonderful idea. Keep enjoying your beautiful garden for as long as you want. Just let me know whenever you want to remove something. Or if you want to start a new garden.",
+    "keep_intro_tos": "Wonderful idea. Enjoy your beautiful garden for while, and when you're ready, say, \"Ok Google, Remove\", or \"Ok Google, New Garden\" to continue.",
+    "menu_tts": "So, you can keep working on this garden, hear instructions, or start a new garden. You can also change your sound settings.",
+    "instructions_tts": "So, you only need to remember a few words to play.<break time=\"0.5\"/>Skip.<break time=\"0.5\"/> New Garden.<break time=\"0.5\"/> Remove.<break time=\"0.5\"/> Weed the Garden.<break time=\"0.5\"/> Menu.<break time=\"0.5\"/> and Exit.<break time=\"1\"/>Now, want to go back to your garden?",
+    "device_error": "Sorry, this device does not support Interactive Canvas!",
+    "welcome_tts": "<prosody volume=\"silent\">welcome screen</prosody><audio src=\"https://actions-on-gnome-garden.firebaseapp.com/assets/sound/splash_screen.mp3\"/>",
+    "story_tts": "<prosody volume=\"silent\">story screen</prosody><audio src=\"https://actions-on-gnome-garden.firebaseapp.com/assets/sound/prologue_screen.mp3\"/>",
+    "welcome_new_suggestion": [
+      "Next"
+    ],
+    "welcome_suggestion": [
+      "Start",
+      "Story"
+    ],
+    "story_suggestion": [
+      "Next"
+    ]
+  },
+  "questions": {
+    "flowers": [
+      {
+        "question_tts": "Here’s an easy one. What do you fancy more? fruits or vegetables?",
+        "question_tos": "Which do you fancy more?",
+        "question_type": "flowers",
+        "answer": {
+          "fruits": {
+            "response_tts": "Fruits! I've always loved a fresh bowl of fruit. There we are, a patch of grapes! Not much maybe, but a wonderful start.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "grapes",
+              "asset_type": "flowers",
+              "asset_label": "Grapes"
+            }
+          },
+          "vegetables": {
+            "response_tts": "Vegetables! I've always loved a plate of fresh veggies. There we are, a lettuce patch! Not much maybe, but a wonderful start.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lettuce",
+              "asset_type": "flowers",
+              "asset_label": "Heads of Lettuce"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're about to adopt a dog. Which one do you pick? A rotund chocolate lab? Or a long, lean greyhound?",
+        "question_tos": "Which dog do you prefer?",
+        "question_type": "flowers",
+        "answer": {
+          "chocolate lab": {
+            "response_tts": "Chocolate labs are so tubby and cute. A chubby cactus then.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "prickly_pear_cactus",
+              "asset_type": "flowers",
+              "asset_label": "Prickly Pear Cacti"
+            }
+          },
+          "greyhound": {
+            "response_tts": "Like grey lightning, those greyhounds can really move. A lean saguaro cactus for a lean dog.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "saguaro_cactus",
+              "asset_type": "flowers",
+              "asset_label": "Saguaro Cacti"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "What goes best with a mug of hot chocolate? Marshmallows. or whipped cream.",
+        "question_tos": "What goes best with a mug of hot chocolate?",
+        "question_type": "flowers",
+        "answer": {
+          "marshmallows": {
+            "response_tts": "Yum, here are some baby's breath for you. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "baby_s_breath",
+              "asset_type": "flowers",
+              "asset_label": "Baby's Breath"
+            }
+          },
+          "whipped cream": {
+            "response_tts": "A soft and fluffy topping, just like this pampas grass.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "pampas_grass",
+              "asset_type": "flowers",
+              "asset_label": "Pampas Grass"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Do you get your best work done when it’s quiet? Or with music playing.",
+        "question_tos": "When do you get your best work done?",
+        "question_type": "flowers",
+        "answer": {
+          "quiet": {
+            "response_tts": "Quiet, me too. Time for some calming lavender",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lavendar",
+              "asset_type": "flowers",
+              "asset_label": "Lavendar shrubs"
+            }
+          },
+          "music": {
+            "response_tts": "I love a little background music, and I love these beautiful angel's trumpets!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "angels_trumpets",
+              "asset_type": "flowers",
+              "asset_label": "Angels Trumpets"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're visited by an extra large magical spider in your dreams. Is it a lanky daddy long legs, or a chunky tarantula?",
+        "question_tos": "Which spider visits your dreams?",
+        "question_type": "flowers",
+        "answer": {
+          "lanky daddy long legs": {
+            "response_tts": "A long friend indeed! Here are some long saguaro cacti.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "saguaro_cactus",
+              "asset_type": "flowers",
+              "asset_label": "Saguaro Cacti"
+            }
+          },
+          "chunky tarantula": {
+            "response_tts": "A chunky friend indeed! Enjoy these chunky prickly pear cacti.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "prickly_pear_cactus",
+              "asset_type": "flowers",
+              "asset_label": "Prickly Pear Cacti"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Every so often you turn into a majestic, magical beast. Are you a pink unicorn, or a fiery phoenix?",
+        "question_tos": "What kind of majestic, magical beast are you?",
+        "question_type": "flowers",
+        "answer": {
+          "pink unicorn": {
+            "response_tts": "The energy of a pink unicorn makes me feel like a rinky dinky filly. This is an omen I believe, so here are some lupins for you. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lupin",
+              "asset_type": "flowers",
+              "asset_label": "Lupins"
+            }
+          },
+          "fiery phoenix": {
+            "response_tts": "Slow down cowpoke. You'd be a feisty fried chicken of a phoenix. Think you're ready for that? Well, here's some red hot pokers to commemorate this fiery decision.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "red_hot_pokers",
+              "asset_type": "flowers",
+              "asset_label": "Red Hot Pokers"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Do you like your pillows fluffy? Or firm.",
+        "question_tos": "How do you like your pillows?",
+        "question_type": "flowers",
+        "answer": {
+          "fluffy": {
+            "response_tts": "A fluffy pillow is like a cloud for the noggin. Mind you, I sleep sitting up. Here's some fluffy pampas grass.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "pampas_grass",
+              "asset_type": "flowers",
+              "asset_label": "Pampas Grass"
+            }
+          },
+          "firm": {
+            "response_tts": "I like my pillows as firm as a brick of gold. speaking of gold, here are some marigolds for you.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "marigold",
+              "asset_type": "flowers",
+              "asset_label": "Marigolds"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Which ingredient is more important in a sandwich? Tomato. Or lettuce.",
+        "question_tos": "Which is more important in a sandwich?",
+        "question_type": "flowers",
+        "answer": {
+          "tomato": {
+            "response_tts": "Of course, the juicy tomato tang is the key! A tomato tree for thee!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tomatoes",
+              "asset_type": "flowers",
+              "asset_label": "Tomatoes"
+            }
+          },
+          "lettuce": {
+            "response_tts": "Crispy crunchy nature flaps, nothing better. Here's some lettuce for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lettuce",
+              "asset_type": "flowers",
+              "asset_label": "Heads of Lettuce"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "I promise this question isn't a decoy. What's the more iconic fake bird? The rubber ducky. Or the lawn flamingo.",
+        "question_tos": "Which fake bird or more iconic?",
+        "question_type": "flowers",
+        "answer": {
+          "duck": {
+            "response_tts": "A bath time favorite, wonderful pick! I've planted some yellow daffodils to celebrate.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "daffodil",
+              "asset_type": "flowers",
+              "asset_label": "Daffodils"
+            }
+          },
+          "flamingo": {
+            "response_tts": "The lawn flamingo is actually a good friend of mine. So, excellent choice, if I do say so myself. Here's some pink tulips to celebrate.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tulip",
+              "asset_type": "flowers",
+              "asset_label": "Tulips"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "I'm sorry for the corny question, but, do you prefer your corn on the cob, or popped?",
+        "question_tos": "How do you prefer your corn?",
+        "question_type": "flowers",
+        "answer": {
+          "cob": {
+            "response_tts": "Fantastic choice, these lupins sure do look like corn cobs",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lupin",
+              "asset_type": "flowers",
+              "asset_label": "Lupins"
+            }
+          },
+          "popped": {
+            "response_tts": "Movie theater style. Dramatic choice. Say, these crocus look a bit like popcorn",
+            "response_tos": "",
+            "update": {
+              "asset_id": "crocuses",
+              "asset_type": "flowers",
+              "asset_label": "Crocuses"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Life on the farm is hard work, but you always find time for fun. Do you like playing with the piglets, or chirping with the chickies?",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "playing with piglets": {
+            "response_tts": "Enjoy rolling in the mud with those pink piggies. I hope you also delight in these pink tulips.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tulip",
+              "asset_type": "flowers",
+              "asset_label": "Tulips"
+            }
+          },
+          "chirping with chickies": {
+            "response_tts": "Sing loud and proud with those yellow chickies. And enjoy these yellow marigolds.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "marigold",
+              "asset_type": "flowers",
+              "asset_label": "Marigolds"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're looking for a snack. Is it time for a side salad, or a fruit salad?",
+        "question_tos": "Which snack do you prefer?",
+        "question_type": "flowers",
+        "answer": {
+          "side salad": {
+            "response_tts": "I'm a savory gnome myself. Lettuce and vinaigrette, yum!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lettuce",
+              "asset_type": "flowers",
+              "asset_label": "Heads of Lettuce"
+            }
+          },
+          "fruit salad": {
+            "response_tts": "I see, sweet juicy fruits! There's nothing better than some crisp grapes.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "grapes",
+              "asset_type": "flowers",
+              "asset_label": "Grapes"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Close your eyes. Imagine a gigantic form looming in front of you. Is it a pink cone, or a green sphere?",
+        "question_tos": "When you close your eyes, which gigantic form do you imagine?",
+        "question_type": "flowers",
+        "answer": {
+          "pink cone": {
+            "response_tts": "A giant pink cone like some sort of candy land. That reminds me of lupins. I've planted some for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lupin",
+              "asset_type": "flowers",
+              "asset_label": "Lupins"
+            }
+          },
+          "green sphere": {
+            "response_tts": "A giant green sphere. That sounds strangely relaxing. Reminds me of a head of lettuce. This garden could use some of those.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lettuce",
+              "asset_type": "flowers",
+              "asset_label": "Heads of Lettuce"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're an ogre obsessed with intense mouth sensations. Do you choose lip curling sour? Or tongue burning spice?",
+        "question_tos": "Which do you prefer?",
+        "question_type": "flowers",
+        "answer": {
+          "sourness": {
+            "response_tts": "A sour crumpled ogre mug, what a thought! Here is a lemon tree!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lemon_tree",
+              "asset_type": "flowers",
+              "asset_label": "Lemon Trees"
+            }
+          },
+          "spice": {
+            "response_tts": "An ogre with a mouth on fire, not something I'd want to bump into. I've spice things up with some hot peppers!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "chili_pepper",
+              "asset_type": "flowers",
+              "asset_label": "Chili Peppers"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "A witch curses you with an incredibly long nose. Does it stick straight out, or bend in a gentle arc?",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "straight": {
+            "response_tts": "Like pinocchio. Have you been telling fibs? Hahaha! Alliums are what we need. They're straight like arrows",
+            "response_tos": "",
+            "update": {
+              "asset_id": "alliums",
+              "asset_type": "flowers",
+              "asset_label": "Alliums"
+            }
+          },
+          "curved": {
+            "response_tts": "Dignified bendy nose, I can respect that. How about a plant with a curve, like these bleeding hearts!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bleeding_heart",
+              "asset_type": "flowers",
+              "asset_label": "Bleeding Hearts"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're about to embark on a long and dangerous journey. What do you bring? Extra luck? Or courage.",
+        "question_tos": "You're embarking on a journey. What do you bring?",
+        "question_type": "flowers",
+        "answer": {
+          "luck": {
+            "response_tts": "Just let go and leave it to luck, I like your style. I've gone ahead and planted some lucky clovers.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "clover",
+              "asset_type": "flowers",
+              "asset_label": "Clovers"
+            }
+          },
+          "courage": {
+            "response_tts": "Courage comes from the heart. Here are some bleeding hearts to admire.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bleeding_heart",
+              "asset_type": "flowers",
+              "asset_label": "Bleeding Hearts"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're required to wear an elaborate headdress in order to attend a fairy banquet. Is your headdress made of pink velvet? Or white cotton.",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "pink": {
+            "response_tts": "Pink and proud. Perfect! Some cosmos for you! ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "cosmos",
+              "asset_type": "flowers",
+              "asset_label": "Cosmos"
+            }
+          },
+          "white": {
+            "response_tts": "Some white daisies for your lapel then! Should go nicely with your new headdress.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "daisies",
+              "asset_type": "flowers",
+              "asset_label": "Daisies"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You discover a magic lamp. And out pops a genie! Are you wishing for a lifetime of good luck? Or the ability to see the future?",
+        "question_tos": "You get one wish. Which do you pick?",
+        "question_type": "flowers",
+        "answer": {
+          "lifetime of good luck": {
+            "response_tts": "And good luck you shall have! Here are some clovers.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "clover",
+              "asset_type": "flowers",
+              "asset_label": "Clovers"
+            }
+          },
+          "see the future": {
+            "response_tts": "I hope the future is bright! Enjoy gazing at these majestic cosmos.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "cosmos",
+              "asset_type": "flowers",
+              "asset_label": "Cosmos"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You've been captured by a surly pirate who demands payment in exchange for your freedom. Do you pay him gold doubloons? Or green paper monies.",
+        "question_tos": "You've been captured by a surly pirate. What do you use to pay for your freedom?",
+        "question_type": "flowers",
+        "answer": {
+          "doubloons": {
+            "response_tts": "Gold, good choice. The pirate is sure to let you go. Here are some marigolds for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "marigold",
+              "asset_type": "flowers",
+              "asset_label": "Marigolds"
+            }
+          },
+          "monies": {
+            "response_tts": "Paper money? I think a pirate might be more into crypto, but what do I know. Here's some clovers to represent those green bills! ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "clover",
+              "asset_type": "flowers",
+              "asset_label": "Clovers"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You can't sleep. Do you listen to the beating of your own heart? Or imagine the tinkling of bells.",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "heartbeat": {
+            "response_tts": "Good choice. There's a drum in your chest, you may as well listen to it",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bleeding_heart",
+              "asset_type": "flowers",
+              "asset_label": "Bleeding Hearts"
+            }
+          },
+          "bells": {
+            "response_tts": "Tinkling bells, how relaxing. These blue bells should fit right in.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bluebell",
+              "asset_type": "flowers",
+              "asset_label": "Bluebells"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Do you prefer gazing at the sunrise? Or the sunset.",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "sunrise": {
+            "response_tts": "A golden smiley sun blast in the morning. Nothing better!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "marigold",
+              "asset_type": "flowers",
+              "asset_label": "Marigolds"
+            }
+          },
+          "sunset": {
+            "response_tts": "Our radiant orb tucks itself in for the night. Purples and pink are the sunset colors, and fit right in with lavender.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lavendar",
+              "asset_type": "flowers",
+              "asset_label": "Lavendar shrubs"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're on a first date. What's the bigger deal breaker? Bad breath? Or an ice cold attitude.",
+        "question_tos": "What's the bigger deal breaker on a first date?",
+        "question_type": "flowers",
+        "answer": {
+          "breath": {
+            "response_tts": "Yes, sadly, that's a nonstarter. I've planted some baby's breath, and be sure to carry a mint.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "baby_s_breath",
+              "asset_type": "flowers",
+              "asset_label": "Baby's Breath"
+            }
+          },
+          "attitude": {
+            "response_tts": "I couldn't agree more. Okay, I've planted some ice plants, and now let's move on from this one. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "ice_plant",
+              "asset_type": "flowers",
+              "asset_label": "Ice Plants"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "What came first? The egg. Or the eggplant.",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "egg": {
+            "response_tts": "I knew it was the egg, these daisies sure look like eggs!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "daisies",
+              "asset_type": "flowers",
+              "asset_label": "Daisies"
+            }
+          },
+          "eggplant": {
+            "response_tts": "Bold choice. I like your style! These beautiful lilacs remind me of eggplants.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lillac",
+              "asset_type": "flowers",
+              "asset_label": "Lilac Bushes"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "After a long summer day, you stumble upon a snow cone cart. Are you ordering fruit punch? Or lemon lime.",
+        "question_tos": "Pick a snowcone flavor.",
+        "question_type": "flowers",
+        "answer": {
+          "fruit punch": {
+            "response_tts": "I can taste it already! I've planted some grapes for your punch. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "grapes",
+              "asset_type": "flowers",
+              "asset_label": "Grapes"
+            }
+          },
+          "lemon lime": {
+            "response_tts": "Delicious choice. Alright, I've planted some lime trees in the ground for you.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lime_tree",
+              "asset_type": "flowers",
+              "asset_label": "Lime Trees"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're a creature of the deep. Are you an orca? Or a catfish.",
+        "question_tos": "Which deep sea creature are you?",
+        "question_type": "flowers",
+        "answer": {
+          "orca": {
+            "response_tts": "Top of the food chain, orcas, magnificent creatures. I wonder if orcas like orchids because that's what I've planted!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "orchid",
+              "asset_type": "flowers",
+              "asset_label": "Orchids"
+            }
+          },
+          "catfish": {
+            "response_tts": "Blackened catfish is one of my favorite dishes. Not sure I'd want to be a bottom feeder, though. Well, in honor of catfish, I've planted some cattails! ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "cattail",
+              "asset_type": "flowers",
+              "asset_label": "Cattails"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're a king’s musician. Are you blasting out a trumpet solo? Or tinkling on a bell.",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "trumpet": {
+            "response_tts": "Blasting on a trumpet? Easy with the tooting, tiger. But yes, here are some angels trumpets.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "angels_trumpets",
+              "asset_type": "flowers",
+              "asset_label": "Angels Trumpets"
+            }
+          },
+          "bell": {
+            "response_tts": "I'm a big fan of bells, including these bluebells I just planted for you. You're welcome.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bluebell",
+              "asset_type": "flowers",
+              "asset_label": "Bluebells"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're madly in love. Does the one you desire, love you? Or love you not.",
+        "question_tos": "You're madly in love. How does the one desire feel about you?",
+        "question_type": "flowers",
+        "answer": {
+          "love you": {
+            "response_tts": "They love you. They really love you. Here are some roses to savor!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "rose",
+              "asset_type": "flowers",
+              "asset_label": "Roses"
+            }
+          },
+          "love you not": {
+            "response_tts": "I've spent many an afternoon plucking petals of a daisy, that's for sure. Speaking of daisies, here you go! ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "daisies",
+              "asset_type": "flowers",
+              "asset_label": "Daisies"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're getting creative in nature. Do you make a snowman? Or build an elaborate sandcastle.",
+        "question_tos": "Which would you rather build?",
+        "question_type": "flowers",
+        "answer": {
+          "snowman": {
+            "response_tts": "A kid once used me as a snowman's nose. Can you believe that? Speaking of snow, I've planted some snowdrops.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "snowdrop",
+              "asset_type": "flowers",
+              "asset_label": "Snowdrops"
+            }
+          },
+          "sandcastle": {
+            "response_tts": "Sandcastles in the sun, lovely. Speaking of sun, enjoy these sunflowers!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "sunflower",
+              "asset_type": "flowers",
+              "asset_label": "Sunflowers"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're invited to a ball. But there's a catch. It's a ball for birds. Do you frolic with the flamingos? Or waltz with the warblers.",
+        "question_tos": "Which birds do you dance with at the bird ball?",
+        "question_type": "flowers",
+        "answer": {
+          "flamingos": {
+            "response_tts": "Flamingos are a funky, wonderful choice. I've planted some pink tulips in the ground to match.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tulip",
+              "asset_type": "flowers",
+              "asset_label": "Tulips"
+            }
+          },
+          "warblers": {
+            "response_tts": "The warblers are a wild bunch! Here are some yellow daffodils in their honor.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "daffodil",
+              "asset_type": "flowers",
+              "asset_label": "Daffodils"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "It's time for a vacation! Are you headed to a sun drenched beach, or a snow covered mountain?",
+        "question_tos": "Which vacation spot do you prefer?",
+        "question_type": "flowers",
+        "answer": {
+          "beach": {
+            "response_tts": "Don't forget the sunscreen, it's going to be hot! Some red hot pokers for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "red_hot_pokers",
+              "asset_type": "flowers",
+              "asset_label": "Red Hot Pokers"
+            }
+          },
+          "mountain": {
+            "response_tts": "Brrrr, be sure to pack lots of layers! Here are some ice plants to keep you company.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "ice_plant",
+              "asset_type": "flowers",
+              "asset_label": "Ice Plants"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You've ordered a heaping bowl of Vietnamese pho <break time=\"30ms\"/> soup. What goes on top? Mint? Or basil.",
+        "question_tos": "If you can only pick one, which topping goes on your pho?",
+        "question_type": "flowers",
+        "answer": {
+          "mint": {
+            "response_tts": "Marvelous choice, speaking of mint, I've planted some right here.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "mint",
+              "asset_type": "flowers",
+              "asset_label": "Mint herbs"
+            }
+          },
+          "basil": {
+            "response_tts": "Basil, brilliant! speaking of, enjoy this basil plant right here.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "basil",
+              "asset_type": "flowers",
+              "asset_label": "Basil herbs"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "It’s movie time! Are you picking a Romantic Comedy? Or a Science Fiction flick.",
+        "question_tos": "Pick a movie genre.",
+        "question_type": "flowers",
+        "answer": {
+          "romantic comedy": {
+            "response_tts": "Romantic! Enjoy these roses. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "rose",
+              "asset_type": "flowers",
+              "asset_label": "Roses"
+            }
+          },
+          "science fiction": {
+            "response_tts": "I sometimes dream of drifting in outer space. These cosmos are a good fit. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "cosmos",
+              "asset_type": "flowers",
+              "asset_label": "Cosmos"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Would you look at that, it's tea time! Would you like mint? Or lavender.",
+        "question_tos": "What kind of tea sounds better?",
+        "question_type": "flowers",
+        "answer": {
+          "mint": {
+            "response_tts": "Don't forget to add some honey. I've planted some mint right here for you.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "mint",
+              "asset_type": "flowers",
+              "asset_label": "Mint herbs"
+            }
+          },
+          "lavender": {
+            "response_tts": "Add a wedge of lemon, and you're all set! Let's plant some lavender right here.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lavendar",
+              "asset_type": "flowers",
+              "asset_label": "Lavendar shrubs"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "What’s the best garnish for a glass of sparkling water? Lemon. or lime.",
+        "question_tos": "What goes better with sparkling water?",
+        "question_type": "flowers",
+        "answer": {
+          "lemon": {
+            "response_tts": "Refreshing and sweet, good choice. A lemon tree for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lemon_tree",
+              "asset_type": "flowers",
+              "asset_label": "Lemon Trees"
+            }
+          },
+          "lime": {
+            "response_tts": "The extra tart and tang of a lime. Delicious! A lime tree for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lime_tree",
+              "asset_type": "flowers",
+              "asset_label": "Lime Trees"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You woke up on the wrong side of bed. What makes you feel better? Sunny side up eggs? Or an ice cold shower?",
+        "question_tos": "What makes you feel better after waking up on the wrong side of bed?",
+        "question_type": "flowers",
+        "answer": {
+          "eggs": {
+            "response_tts": "Fried eggs make everything better. Speaking of sunny side, here are some sunflowers for your enjoyment. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "sunflower",
+              "asset_type": "flowers",
+              "asset_label": "Sunflowers"
+            }
+          },
+          "shower": {
+            "response_tts": "I can already feel my teeth chattering! Well, I don't have access to an ice cold shower, but you can have these ice plants instead.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "ice_plant",
+              "asset_type": "flowers",
+              "asset_label": "Ice Plants"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "My best friend Penelope asked for a sweet treat. Should I go with cotton candy, or a lollipop? ",
+        "question_tos": "Which treat should I give my best friend?",
+        "question_type": "flowers",
+        "answer": {
+          "cotton candy": {
+            "response_tts": "Soft and fluffy, Penelope is going to love it! These Lilacs look just like cotton candy!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lillac",
+              "asset_type": "flowers",
+              "asset_label": "Lilac Bushes"
+            }
+          },
+          "lollipop": {
+            "response_tts": "yumm, a perfect sweet treat. Say, these alliums sure do look like lollipops.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "alliums",
+              "asset_type": "flowers",
+              "asset_label": "Alliums"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Which pasta sauce do you prefer? Pesto? Or marinara. ",
+        "question_tos": "Which sauce would you rather have on your pasta?",
+        "question_type": "flowers",
+        "answer": {
+          "pesto": {
+            "response_tts": "You're making me hungry! Let's celebrate with this basil that I've planted.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "basil",
+              "asset_type": "flowers",
+              "asset_label": "Basil herbs"
+            }
+          },
+          "marinara": {
+            "response_tts": "Yumm, I like mine with extra parmesan! Alright, I've planted some tasty tomatoes for you.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tomatoes",
+              "asset_type": "flowers",
+              "asset_label": "Tomatoes"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "On a winter getaway, would you rather be sitting next to a crackling fire, or making snow angels?",
+        "question_tos": "You're on a winter getaway. Which sounds more appealing?",
+        "question_type": "flowers",
+        "answer": {
+          "crackling fire": {
+            "response_tts": "Excellent choice, we gnomes love the simple comforts. Here are some red pokers. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "red_hot_pokers",
+              "asset_type": "flowers",
+              "asset_label": "Red Hot Pokers"
+            }
+          },
+          "snow angels": {
+            "response_tts": "Nothing better! Well, here's some angel's trumpets for you to enjoy.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "angels_trumpets",
+              "asset_type": "flowers",
+              "asset_label": "Angels Trumpets"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Here's a question. Minimalism, or maximalism?",
+        "question_tos": "Pick one.",
+        "question_type": "flowers",
+        "answer": {
+          "minimalism": {
+            "response_tts": "Ah, simplicity. Here are some delightful orchids.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "orchid",
+              "asset_type": "flowers",
+              "asset_label": "Orchids"
+            }
+          },
+          "maximalism": {
+            "response_tts": "The more the merrier! Here are some crocus for your garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "crocuses",
+              "asset_type": "flowers",
+              "asset_label": "Crocuses"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "This town simply isn't big enough for two grapes! What will it be, grape grapes, or grape tomatoes?",
+        "question_tos": "Pick one.",
+        "question_type": "flowers",
+        "answer": {
+          "grape grapes": {
+            "response_tts": "A tried and true pick, the original grape! Here are a few for you. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "grapes",
+              "asset_type": "flowers",
+              "asset_label": "Grapes"
+            }
+          },
+          "grape tomatoes": {
+            "response_tts": "A delicious choice. Tomatoes forever!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tomatoes",
+              "asset_type": "flowers",
+              "asset_label": "Tomatoes"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "What's the most exciting part of a roller coaster? The giant drop? Or the loop-de-loop?",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "giant drop": {
+            "response_tts": "Maximum speed and stomach drop! That reminds me, let's plant some snowdrops!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "snowdrop",
+              "asset_type": "flowers",
+              "asset_label": "Snowdrops"
+            }
+          },
+          "loop-de-loop": {
+            "response_tts": "Hold on to your hats! I love a loop-de-loop. Now here are some lupins for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lupin",
+              "asset_type": "flowers",
+              "asset_label": "Lupins"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "The fruit salad bowl at the picnic is getting down to the bottom. Are you scooping up grapes? Or pears.",
+        "question_tos": "What's at the bottom of the fruit salad?",
+        "question_type": "flowers",
+        "answer": {
+          "grapes": {
+            "response_tts": "A juicy choice, enjoy! And speaking of grapes, here are a few for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "grapes",
+              "asset_type": "flowers",
+              "asset_label": "Grapes"
+            }
+          },
+          "pears": {
+            "response_tts": "A ripe choice indeed! Speaking of pears, I've planted some prickly pear cacti right over here.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "prickly_pear_cactus",
+              "asset_type": "flowers",
+              "asset_label": "Prickly Pear Cacti"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're meeting a blind date for the first time. Do you deliver a romantic line, or a corny joke?",
+        "question_tos": "What's the first thing you say on a blind date?",
+        "question_type": "flowers",
+        "answer": {
+          "romantic line": {
+            "response_tts": "Beautiful choice! And here is a romantic rose to go with it.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "rose",
+              "asset_type": "flowers",
+              "asset_label": "Roses"
+            }
+          },
+          "corny joke": {
+            "response_tts": "Yes, I'm afraid corny jokes are my favorite as well. Speaking of, these lupins look a bit like corn!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lupin",
+              "asset_type": "flowers",
+              "asset_label": "Lupins"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're running out the door, but you haven't had breakfast yet! What do you grab? A plum? Or a banana.",
+        "question_tos": null,
+        "question_type": "flowers",
+        "answer": {
+          "plum": {
+            "response_tts": "A delicious pick! Just be careful of the juice. Here are some plum purple lilacs for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lillac",
+              "asset_type": "flowers",
+              "asset_label": "Lilac Bushes"
+            }
+          },
+          "banana": {
+            "response_tts": "Peel and go, it's just that easy. Now please delight in these banana yellow daffodils.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "daffodil",
+              "asset_type": "flowers",
+              "asset_label": "Daffodils"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": null,
+        "question_tos": "Which is it?",
+        "question_type": "flowers",
+        "answer": {
+          "hot": {
+            "response_tts": "Ah yes! A toasty hot pepper plant it is! ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "chili_pepper",
+              "asset_type": "flowers",
+              "asset_label": "Chili Peppers"
+            }
+          },
+          "cold": {
+            "response_tts": "Ah yes! A frosty tipped snowdrop then for you!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "snowdrop",
+              "asset_type": "flowers",
+              "asset_label": "Snowdrops"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "When is your favorite time to explore the world? Under the beaming sun? Or under the glowing moon.",
+        "question_tos": "What's in the sky when you're exploring the world?",
+        "question_type": "flowers",
+        "answer": {
+          "beaming sun": {
+            "response_tts": "A bright choice indeed! These sunflowers are the perfect fit.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "sunflower",
+              "asset_type": "flowers",
+              "asset_label": "Sunflowers"
+            }
+          },
+          "glowing moon": {
+            "response_tts": "A magical pick! Enjoy the purple glow, and this purple lavender.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "lavendar",
+              "asset_type": "flowers",
+              "asset_label": "Lavendar shrubs"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "It's the first day of bandcamp. Are you reaching for the trumpet? Or picking up the bells.",
+        "question_tos": "Which instrument do you play at bandcamp?",
+        "question_type": "flowers",
+        "answer": {
+          "reaching for trumpet": {
+            "response_tts": "A choice that trumps all others. And with these angels trumpets in your garden, you'll be the toot of the town.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "angels_trumpets",
+              "asset_type": "flowers",
+              "asset_label": "Angels Trumpets"
+            }
+          },
+          "picking up bells": {
+            "response_tts": "ding-a-ling-a-ling! They sound lovely. And these bluebells sure look lovely too.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bluebell",
+              "asset_type": "flowers",
+              "asset_label": "Bluebells"
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're late for a visit with a magical <break time=\"40ms\"/> oracle, but it's only four blocks away! How do you get there? Run like a cat? Or call a taxi cab.",
+        "question_tos": "How are you getting to the magical oracle?",
+        "question_type": "flowers",
+        "answer": {
+          "run like a cat": {
+            "response_tts": "You're hightailing it, good luck! I hope these speedy cattails can keep up. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "cattail",
+              "asset_type": "flowers",
+              "asset_label": "Cattails"
+            }
+          },
+          "call taxi cab": {
+            "response_tts": "Let's hope that that yellow cab is on time! Speaking of yellow, here are some lovely yellow daffodils!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "daffodil",
+              "asset_type": "flowers",
+              "asset_label": "Daffodils"
+            }
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "question_tts": "Do you like your peanut butter chunky or smooth?",
+        "question_tos": null,
+        "question_type": "path",
+        "answer": {
+          "chunky": {
+            "response_tts": "Yes, chunky peanut butter makes my taste buds dance. In honor of chunky peanut butter, I've placed some chunky pebbles on this path",
+            "response_tos": "",
+            "update": {
+              "asset_id": "path_pebbles",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          },
+          "smooth": {
+            "response_tts": "Smooth peanut butter is good, but it gums up my gnomey mouth something fierce. Alright, I've put something smooth on this path. Don't worry, it's sand, not peanut butter.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "path_sand",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Which do you prefer between your bare toes? Moss? Or Sand. ",
+        "question_tos": null,
+        "question_type": "path",
+        "answer": {
+          "moss": {
+            "response_tts": "You know what they say, moss is mother nature's carpet. And I've put some right here on this path.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "moss_1",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          },
+          "sand": {
+            "response_tts": "There are few things better than cool sand between the toes! And here's some sand for the pathway.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "path_sand",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Would you rather stroll on a cloud? Or on a sand dune.",
+        "question_tos": "What would you rather stroll on?",
+        "question_type": "path",
+        "answer": {
+          "cloud": {
+            "response_tts": "You know what feels like walking on a cloud? Moss! And I've planted some on this path.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "moss_2",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          },
+          "sand": {
+            "response_tts": "Scorching sand dune! Ouch! You'd better have some hefty callouses. Anyway, I've put some sand on this path.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "path_sand",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Imagine for a moment that you have to restart your life as a rock, or a plant. Which would you be?",
+        "question_tos": "What would you restart your life as?",
+        "question_type": "path",
+        "answer": {
+          "rock": {
+            "response_tts": "A rock! Well get ready then because you're in for a long boring ride with geological time. But hey it's your choice. I've laid some pebbles on this path.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "path_pebbles",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          },
+          "plant": {
+            "response_tts": "I've always wanted to be a plant too. I mean who doesn't want to know what it feels like to be moss? Speaking of, I planted some moss on the path.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "moss_3",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "What's more satisfying? A glorious sandcastle? Or an exquisite, mossy terrarium?",
+        "question_tos": null,
+        "question_type": "path",
+        "answer": {
+          "sandcastle": {
+            "response_tts": "Hardly anything more relaxing than digging around on the beach. I've never been to a beach actually, but my cousin is a beach gnome and told me all about it. I know, we'll bring a bit of beach to the garden by using sand for this path.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "path_sand",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          },
+          "terrarium": {
+            "response_tts": "Oh how I love a good terrarium. Did you know that a terrarium can sometimes have a closed weather system. Imagine a little cloud floating in a glass bottle garden. Makes me smile just thinking of it. Anyway, here's some moss for the path.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "moss_4",
+              "asset_type": "path",
+              "asset_label": ""
+            }
+          }
+        }
+      }
+    ],
+    "background": [
+      {
+        "question_tts": "A princess is gifting you a pet imbued with legendary cuteness rating. Is it a fluffy white bunny, or a pink hedgehog?",
+        "question_tos": "You receive a pet from a princess. What is it?",
+        "question_type": "background",
+        "answer": {
+          "bunny": {
+            "response_tts": "ha ha ha ha ha a fluffy white bunny. You're too much. Let's get some fluffy white dogwood trees up in here",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tree_dogwood",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          },
+          "hedgehog": {
+            "response_tts": "How cute! I'd love one too. Let's just imagine that the hibiscus I planted are giant pink hedgehogs.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "hibiscus",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You've made a new best friend who just happens to be a giant plant creature. Is it a long lean tree, or a tubby little bush?",
+        "question_tos": "Which one is your new BFF?",
+        "question_type": "background",
+        "answer": {
+          "tree": {
+            "response_tts": "A spindly ent, good for reaching into high places. Here's a tall oak tree.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tree_oak",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          },
+          "bush": {
+            "response_tts": "Shrub-a-dub-dub! Here are some boxwoods for you to delight in!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "boxwood",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "When it comes to cookies, do you prefer plain sugar? Or chocolate chip.",
+        "question_tos": "Pick a cookie.",
+        "question_type": "background",
+        "answer": {
+          "sugar": {
+            "response_tts": "Keeping it simple, a fine choice indeed. Reminds me of these lovely Boxwoods.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "boxwood",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          },
+          "chocolate chip": {
+            "response_tts": "A true classic! Reminds me of these lovely Boxwoods, speckled with flowers.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "boxwood_w_flowers",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "It's ice cream time! Are you keeping it simple with vanilla, or spicing it up with strawberry?",
+        "question_tos": "Pick an ice cream flavor.",
+        "question_type": "background",
+        "answer": {
+          "vanilla": {
+            "response_tts": "A true classic, vanilla will never let you down! Those white scoops remind me of the leaves on this dogwood tree.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tree_dogwood",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          },
+          "strawberry": {
+            "response_tts": "A perfect treat! Enjoy your strawberry scoops, as well as these pink cherry blossom trees.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "tree_cherry_blossom",
+              "asset_type": "background",
+              "asset_label": ""
+            }
+          }
+        }
+      }
+    ],
+    "hero": [
+      {
+        "question_tts": "Imagine you're a bird. Are you taking a bath? Or perched on a statue.",
+        "question_tos": null,
+        "question_type": "hero",
+        "answer": {
+          "bathing": {
+            "response_tts": "Cool refreshing bath. Nice. Here's a birdbath for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bird_fountain",
+              "asset_type": "hero",
+              "asset_label": ""
+            }
+          },
+          "perched": {
+            "response_tts": "You'd need somewhere to perch then. Here's a statue for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "statue",
+              "asset_type": "hero",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "The might of stone, or the flexibility of water?",
+        "question_tos": "Do you have the might of stone or the flexibility of water?",
+        "question_type": "hero",
+        "answer": {
+          "stone": {
+            "response_tts": "Yes. Let's go back to the stone age. Here's a stone statue.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "statue",
+              "asset_type": "hero",
+              "asset_label": ""
+            }
+          },
+          "water": {
+            "response_tts": "Flowing aquatic flexibility. Good choice. And here's a bird fountain.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bird_fountain",
+              "asset_type": "hero",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Does your belly button face in or out?",
+        "question_tos": "Which describes your belly button better?",
+        "question_type": "hero",
+        "answer": {
+          "in": {
+            "response_tts": "Gnome belly buttons are like a mary poppins bag. We store small objects in them. Here's a birdbath. ",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bird_fountain",
+              "asset_type": "hero",
+              "asset_label": ""
+            }
+          },
+          "out": {
+            "response_tts": "Legend has it that there will one day be a gnome with an outie belly button. And they will be the chosen one. Anyhow, here's a statue for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "statue",
+              "asset_type": "hero",
+              "asset_label": ""
+            }
+          }
+        }
+      }
+    ],
+    "seat": [
+      {
+        "question_tts": "It’s movie night at your friend’s house! Are you grabbing a seat on the couch, or on the floor?",
+        "question_tos": null,
+        "question_type": "seat",
+        "answer": {
+          "couch": {
+            "response_tts": "Couches are the coziest! Beats a tree stump, that's for sure. Here's the closest thing I've got. A bench.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bench",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          },
+          "floor": {
+            "response_tts": "I like being close to the ground too. Here, I put a blanket down for future garden spectators.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "blanket",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're making an escape! Do you fly away on a magic carpet, or ride a tree trunk down a raging river?",
+        "question_tos": "How are you making your escape?",
+        "question_type": "seat",
+        "answer": {
+          "fly": {
+            "response_tts": "I've always wanted to have tea with a genie on a magic carpet. It's on my bucket list. Here's a blanket for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "blanket",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          },
+          "ride": {
+            "response_tts": "You'd surf a log down a river? Wow! You live a much more exciting life than this humble gnome. Well, here's a log for visitors to sit on.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "log",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Imagine yourself relaxing in nature. Are you sitting on a park bench? Or a log in a forest.",
+        "question_tos": "What are you sitting on outside?",
+        "question_type": "seat",
+        "answer": {
+          "bench": {
+            "response_tts": "Park bench people-watching is some of the finest people watching in the world. Here's a bench for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "bench",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          },
+          "log": {
+            "response_tts": "Sitting on a log is what I do best. And here's a log for anyone who wants to hang out in the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "log",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're a lonely centipede. Where do you look for a new friend? In a soft, rotten tree trunk? Or a crumb filled picnic.",
+        "question_tos": "As a lonely centipede, where do you look for a new friend?",
+        "question_type": "seat",
+        "answer": {
+          "tree trunk": {
+            "response_tts": "Fantastic. Hunting for bugs in a rotten log is a centipede's dream. Here's a log for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "log",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          },
+          "picnic": {
+            "response_tts": "Indeed, picnics are a great opportunity to make new friends, human and bugs alike. Here's a picnic blanket for your garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "blanket",
+              "asset_type": "seat",
+              "asset_label": ""
+            }
+          }
+        }
+      }
+    ],
+    "secondary": [
+      {
+        "question_tts": "It’s time for some thrills! Are you headed to the water park? Or the theme park.",
+        "question_tos": "Where do you go for thrills?",
+        "question_type": "secondary",
+        "answer": {
+          "water park": {
+            "response_tts": "We gnomes don't wear bathing suits. But we do shower with a watering can! And here's one for your garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "watering_can",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          },
+          "theme park": {
+            "response_tts": "Roller coasters make gnomes sick. You'd have to carry me home in a wheelbarrow.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "wheel_barrow",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're both hungry, and thirsty. Do you hydrate with a cold glass of water? Or shovel some food into your mouth.",
+        "question_tos": "You're hungry and thirsty. Which comes first?",
+        "question_type": "secondary",
+        "answer": {
+          "water": {
+            "response_tts": "Good idea. Humans can't last long without water. We gnomes can go for several fortnight. We just get a bit crumbly. Anyway, here's a watering can to sooth your parched palette.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "watering_can",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          },
+          "food": {
+            "response_tts": "We gnomes have been known to shovel in the grub! Speaking of shovels, here's one to help with the garden work.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "shovel",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "You're stranded on a desert island, and you only brought one thing. Do you have a cup? or a spoon. ",
+        "question_tos": "You're stranded on a desert island. What do you have with you?",
+        "question_type": "secondary",
+        "answer": {
+          "cup": {
+            "response_tts": "For collecting water? Good thinking. Personally I'd use a watering can.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "watering_can",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          },
+          "spoon": {
+            "response_tts": "I suppose you could dig for stuff with a spoon. Yes, you could use it as a shovel!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "shovel",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Pick a superpower. Seeing the future like a clairvoyant wizard, or running at the speed of light?",
+        "question_tos": null,
+        "question_type": "secondary",
+        "answer": {
+          "clairvoyant": {
+            "response_tts": "A wizard once turned me into a frog for a week. Anyway, speaking of wizards, here's a crystal ball",
+            "response_tos": "",
+            "update": {
+              "asset_id": "gazing_ball",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          },
+          "quick": {
+            "response_tts": "Just imagine the places you'll go! You'll be faster than this speedy wheelbarrow.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "wheel_barrow",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": null,
+        "question_tos": "You're rolling down a hill. What are you?",
+        "question_type": "secondary",
+        "answer": {
+          "wheel": {
+            "response_tts": "There couldn't be any wheelbarrows without wheels, now could there?",
+            "response_tos": "",
+            "update": {
+              "asset_id": "wheel_barrow",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          },
+          "ball": {
+            "response_tts": "Rolling down a hill in a ball, that sounds fun, if also a bit painful. Here's a ball for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "gazing_ball",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Imagine you're a humongous, bratty baby. Are you soothed by a precious pearl, or a silver spoon?",
+        "question_tos": "You're a humongous baby. What soothes you?",
+        "question_type": "secondary",
+        "answer": {
+          "pearl": {
+            "response_tts": "There there, little one, it's okay. Here's a pearl to soothe you.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "gazing_ball",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          },
+          "spoon": {
+            "response_tts": "Rolling down a hill in a ball! That sounds fun. If also a bit painful. Here's a ball for the garden.",
+            "response_tos": "",
+            "update": {
+              "asset_id": "shovel",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          }
+        }
+      },
+      {
+        "question_tts": "Imagine you wake up, and discover to your amazement that you are now a freshly baked loaf of bread. Are you round, or are you flat?",
+        "question_tos": "What kind of bread are you?",
+        "question_type": "secondary",
+        "answer": {
+          "round": {
+            "response_tts": "Spending the rest of your life as a nice round loaf of bread sounds relaxing. Here's a round gazing ball to remind us of that",
+            "response_tos": "",
+            "update": {
+              "asset_id": "gazing_ball",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          },
+          "flat": {
+            "response_tts": "Flat and thin! Like a shovel!",
+            "response_tos": "",
+            "update": {
+              "asset_id": "shovel",
+              "asset_type": "secondary",
+              "asset_label": ""
+            }
+          }
+        }
+      }
+    ]
+  }
+}

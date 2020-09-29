@@ -1,0 +1,135 @@
+{"frames": {
+
+"bench":
+{
+	"frame": {"x":0,"y":0,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"bird_fountain":
+{
+	"frame": {"x":250,"y":0,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"blanket":
+{
+	"frame": {"x":0,"y":300,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"gazing_ball":
+{
+	"frame": {"x":250,"y":300,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"log":
+{
+	"frame": {"x":0,"y":600,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"moss_1":
+{
+	"frame": {"x":250,"y":600,"w":100,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":60},
+	"sourceSize": {"w":100,"h":60}
+},
+"moss_2":
+{
+	"frame": {"x":350,"y":600,"w":100,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":60},
+	"sourceSize": {"w":100,"h":60}
+},
+"moss_3":
+{
+	"frame": {"x":0,"y":900,"w":100,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":60},
+	"sourceSize": {"w":100,"h":60}
+},
+"moss_4":
+{
+	"frame": {"x":100,"y":900,"w":100,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":60},
+	"sourceSize": {"w":100,"h":60}
+},
+"path_pebbles":
+{
+	"frame": {"x":200,"y":900,"w":100,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":60},
+	"sourceSize": {"w":100,"h":60}
+},
+"path_sand":
+{
+	"frame": {"x":300,"y":900,"w":100,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":60},
+	"sourceSize": {"w":100,"h":60}
+},
+"shovel":
+{
+	"frame": {"x":0,"y":960,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"statue":
+{
+	"frame": {"x":250,"y":960,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"watering_can":
+{
+	"frame": {"x":0,"y":1260,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+},
+"wheel_barrow":
+{
+	"frame": {"x":250,"y":1260,"w":250,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":300},
+	"sourceSize": {"w":250,"h":300}
+}},
+"animations": {
+	"moss": ["moss_1","moss_2","moss_3","moss_4"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "features.png",
+	"format": "RGBA8888",
+	"size": {"w":500,"h":1560},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:69a8cbe337e4895f309c72ccb71744a0:d8d99c2c7e13162bb59c09be5e3fc733:d039dd5ca6a34e331980f440cee61bb6$"
+}
+}

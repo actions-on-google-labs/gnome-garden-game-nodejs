@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    # GLOBAL CLASSES
+\*------------------------------------*/
+
+html {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/**
+ * Completely remove from the flow and screen readers.
+ */
+.is-hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/**
+ * Completely remove from the flow but leave available to screen readers.
+ */
+.is-vishidden {
+    position: absolute !important;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.noscroll{
+    overflow: hidden;
+}
+
+.hide-mobile {
+    @include respond-to('desktop-only'){
+        display: none !important;
+    }
+}
+
+.hide-tablet-portrait-only {
+    @include respond-to('tablet-portrait-only'){
+        display: none !important;
+    }
+}
+
+.hide-desktop {
+    @include respond-to('desktop'){
+        display: none !important;
+    }
+}
+
+
+.no-transition {
+    transition: none !important;
+}

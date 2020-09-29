@@ -1,0 +1,73 @@
+{
+  "name": "aog-gnome-garden",
+  "version": "1.0.0",
+  "description": "Google Action - Gnome Garden Game",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "./scripts/generate-firebase-env.sh && npm run build && firebase deploy",
+    "deploy:dev": "NODE_ENV=development ./scripts/generate-firebase-env.sh && firebase use dev && npm run build && firebase deploy",
+    "deploy:prod": "NODE_ENV=production ./scripts/generate-firebase-env.sh && firebase use prod && npm run build && firebase deploy && firebase use dev",
+    "lint:spa": "vue-cli-service lint",
+    "lint:firebase": "npm run lint --prefix functions",
+    "lint": "npm run lint:spa && npm run lint:firebase",
+    "generate-audio": "node scripts/audio/GenerateAudio.js",
+    "data:parser": "node ./scripts/data-parser/index",
+    "config:generate": "gulp -f ./scripts/config-manager/index.js config:generate",
+    "config:deploy": "gulp -f ./scripts/config-manager/index.js config:deploy",
+    "config:dev-to-local": "NODE_ENV=dev gulp -f ./scripts/config-manager/index.js config:update_local",
+    "config:prod-to-local": "NODE_ENV=prod gulp -f ./scripts/config-manager/index.js config:update_local"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "gsap": "^3.2.6",
+    "howler": "^2.1.3",
+    "pixi-layers": "^0.2.3",
+    "pixi-projection": "^0.3.11",
+    "pixi.js": "^5.2.1",
+    "vue": "^2.6.11",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "async": "^3.2.0",
+    "audiosprite": "^0.7.2",
+    "axios": "^0.19.2",
+    "babel-eslint": "^10.0.3",
+    "browser-sync": "^2.26.7",
+    "cheerio": "^1.0.0-rc.3",
+    "concurrently": "^5.1.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "firebase-tools": "^8.11.2",
+    "google-spreadsheet": "^3.0.11",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-modify-file": "^1.0.1",
+    "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.3",
+    "js-yaml": "^3.13.1",
+    "moment": "^2.25.3",
+    "node-blob": "0.0.2",
+    "node-sass": "^4.12.0",
+    "object-dot": "^1.7.0",
+    "sass-loader": "^8.0.2",
+    "synonyms": "^1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

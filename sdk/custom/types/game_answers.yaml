@@ -1,0 +1,153 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+synonym:
+  entities:
+    attitude: {}
+    ball: {}
+    banana: {}
+    basil: {}
+    bathing: {}
+    beach: {}
+    beaming sun: {}
+    bell: {}
+    bells: {}
+    bench: {}
+    breath: {}
+    bunny: {}
+    bush: {}
+    call taxi cab: {}
+    catfish: {}
+    chirping with chickies: {}
+    chocolate chip: {}
+    chocolate lab: {}
+    chunky: {}
+    chunky tarantula: {}
+    clairvoyant: {}
+    cloud: {}
+    cob: {}
+    cold: {}
+    corny joke: {}
+    cotton candy: {}
+    couch: {}
+    courage: {}
+    crackling fire: {}
+    cup: {}
+    curved: {}
+    doubloons: {}
+    duck: {}
+    egg: {}
+    eggplant: {}
+    eggs: {}
+    fiery phoenix: {}
+    firm: {}
+    flamingo: {}
+    flamingos: {}
+    flat: {}
+    floor: {}
+    fluffy: {}
+    fly: {}
+    food: {}
+    fruit punch: {}
+    fruit salad: {}
+    fruits: {}
+    giant drop: {}
+    glowing moon: {}
+    grape grapes: {}
+    grape tomatoes: {}
+    grapes: {}
+    green sphere: {}
+    greyhound: {}
+    heartbeat: {}
+    hedgehog: {}
+    hot: {}
+    in: {}
+    lanky daddy long legs: {}
+    lavender: {}
+    lemon: {}
+    lemon lime: {}
+    lettuce: {}
+    lifetime of good luck: {}
+    lime: {}
+    log: {}
+    lollipop: {}
+    loop-de-loop: {}
+    love you: {}
+    love you not: {}
+    luck: {}
+    marinara: {}
+    marshmallows: {}
+    maximalism: {}
+    minimalism: {}
+    mint: {}
+    monies: {}
+    moss: {}
+    mountain: {}
+    music: {}
+    orca: {}
+    out: {}
+    pearl: {}
+    pears: {}
+    perched: {}
+    pesto: {}
+    picking up bells: {}
+    picnic: {}
+    pink: {}
+    pink cone: {}
+    pink unicorn: {}
+    plant: {}
+    playing with piglets: {}
+    plum: {}
+    popped: {}
+    quick: {}
+    quiet: {}
+    reaching for trumpet: {}
+    ride: {}
+    rock: {}
+    romantic comedy: {}
+    romantic line: {}
+    round: {}
+    run like a cat: {}
+    sand: {}
+    sandcastle: {}
+    science fiction: {}
+    see the future: {}
+    shower: {}
+    side salad: {}
+    smooth: {}
+    snow angels: {}
+    snowman: {}
+    sourness: {}
+    spice: {}
+    spoon: {}
+    stone: {}
+    straight: {}
+    strawberry: {}
+    sugar: {}
+    sunrise: {}
+    sunset: {}
+    terrarium: {}
+    theme park: {}
+    tomato: {}
+    tree: {}
+    tree trunk: {}
+    trumpet: {}
+    vanilla: {}
+    vegetables: {}
+    warblers: {}
+    water: {}
+    water park: {}
+    wheel: {}
+    whipped cream: {}
+    white: {}

@@ -1,0 +1,44 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+handlers:
+- name: handle_init_game
+- name: handle_close_remove
+- name: handle_confirm_new_garden
+- name: handle_first_weed
+- name: handle_on_game_play
+- name: handle_on_game_over
+- name: handle_game_reset
+- name: handle_open_instructions
+- name: handle_on_boarding
+- name: handle_open_remove
+- name: handle_open_settings
+- name: handle_story
+- name: handle_welcome
+- name: handle_weed_the_garden
+- name: handle_nomatch_2
+- name: handle_nomatch_3
+- name: handle_nomatch_1
+- name: handle_game_closes
+- name: handle_skip_weeding
+- name: handle_repeat_question
+- name: handle_both_question
+- name: handle_skip_question
+- name: handle_user_answer
+- name: handle_keep_garden
+- name: handle_remove_flower_by_id
+- name: handle_update_sound_state
+httpsEndpoint:
+  baseUrl: 'https://us-central1-{PROJECT_ID}.cloudfunctions.net/ActionsOnGoogleFulfillment'
+  endpointApiVersion: 2

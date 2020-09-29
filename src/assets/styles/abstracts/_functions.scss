@@ -1,0 +1,20 @@
+/// Function helper to avoid having to type `map-get($z-layers, ...)`
+///
+/// @param {String} $layer - Name of layer
+/// @return {Number}
+/// @require $z-layers - Map
+/// @author Hugo Giraudel
+/// @link http://www.sitepoint.com/better-solution-managing-z-index-sass
+///
+/// @example scss - Usage
+/// .modal {
+///     z-index: z('modal');
+/// }
+///
+@function z($layer) {
+    @if not map-has-key($z-layers, $layer) {
+        @warn "No z-index found in $z-layers map for `#{$layer}`. Property omitted.";
+    }
+
+    @return map-get($z-layers, $layer);
+}
