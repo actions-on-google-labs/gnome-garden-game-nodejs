@@ -17,6 +17,8 @@ G'norman is a curious gnome. Answer his whimsical ponderings, and he’ll sculpt
 
 When it's all full, keep the zen garden by your side as you go about your activities, or delight in a new one if you fancy a daily change of scenery.
 
+This game explores a new, experimental type of gameplay, offered by the ambient nature of smart displays in the home. We hope this game and the design process that we followed inspires you to create your own unique, ambient experiences.
+
 This game has been designed for Nest Hub and Nest Hub Max smart displays and implemented using [Interactive Canvas](https://developers.google.com/assistant/interactivecanvas).
 
 ### Prerequisites
